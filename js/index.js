@@ -79,7 +79,8 @@ appenlink.style.color = '#26bf1b'
 // update cta Section 
 
 let ctaText = document.querySelector('.cta-text h1');
-ctaText.textContent = siteContent['cta']['h1']
+siteContent.cta.h1 = "Dom <br> Is <br> Awesome"
+ctaText.innerHTML = siteContent.cta['h1']
 
 
 let ctaBtn = document.querySelector('.cta-text button');
